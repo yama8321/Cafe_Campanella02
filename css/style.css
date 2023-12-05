@@ -538,7 +538,7 @@ th {
   opacity: 0.3;
 }
 
-@media (width <= 800px) { /* メディアクエリの値はお好みで */
+@media (max-width: 800px) { /* メディアクエリの値はお好みで */
   .toggleButton {
     position: fixed;
     top: 10px;
@@ -803,7 +803,7 @@ header .headerback .headerback_logo .headerLogo {
   gap: 1rem;
   animation: bg 20s ease infinite;
 }
-@media (width < 800px) {
+@media (max-width: 800px) {
   .sec01 {
     max-width: 100%;
     flex-direction: column;
@@ -811,7 +811,7 @@ header .headerback .headerback_logo .headerLogo {
     padding: 1rem;
   }
 }
-@media (width < 600px) {
+@media (max-width: 600px) {
   .sec01 {
     background-image: none;
     padding: 0;
@@ -821,7 +821,7 @@ header .headerback .headerback_logo .headerLogo {
 .sec01 .sec01ono {
   width: 500px;
 }
-@media (width < 800px) {
+@media (max-width: 800px) {
   .sec01 .sec01ono {
     max-width: 400px;
     width: 100%;
@@ -841,13 +841,13 @@ header .headerback .headerback_logo .headerLogo {
   letter-spacing: 1px;
   line-height: 1.5rem;
 }
-@media (width < 800px) {
+@media (max-width: 800px) {
   .sec01 .sec01p {
     width: 100%;
     padding: 10px;
   }
 }
-@media (width < 320px) {
+@media (max-width: 320px) {
   .sec01 .sec01p {
     padding: 3px;
   }
@@ -1101,7 +1101,7 @@ header .headerback .headerback_logo .headerLogo {
   margin: 0 auto;
   padding-bottom: 300px;
 }
-@media (width < 800px) {
+@media (max-width: 800px) {
   #staff {
     flex-direction: column;
     align-items: center;
@@ -1116,7 +1116,7 @@ header .headerback .headerback_logo .headerLogo {
   overflow: hidden;
   box-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
-@media (width < 320px) {
+@media (max-width: 320px) {
   #staff .minoBG .staffMino {
     flex-direction: column-reverse;
   }
@@ -1165,7 +1165,7 @@ header .headerback .headerback_logo .headerLogo {
   height: 100%;
   box-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
-@media (width < 320px) {
+@media (max-width: 320px) {
   #staff .medousaBG .staffMedousa {
     flex-direction: column;
   }
@@ -1215,7 +1215,7 @@ header .headerback .headerback_logo .headerLogo {
   gap: 1rem;
   animation: bg 20s ease infinite;
 }
-@media (width < 800px) {
+@media (max-width: 800px) {
   .contener {
     flex-direction: column;
     align-items: center;
@@ -1249,12 +1249,12 @@ header .headerback .headerback_logo .headerLogo {
   width: 100%;
   margin: 0 auto;
 }
-@media (width < 800px) {
+@media (max-width: 800px) {
   #access iframe {
     height: 300px;
   }
 }
-@media (width < 320px) {
+@media (max-width: 320px) {
   #access iframe {
     height: 150px;
   }
@@ -1266,7 +1266,7 @@ footer {
   display: flex;
   justify-content: center;
 }
-@media (width < 320px) {
+@media (max-width: 320px) {
   footer {
     flex-direction: column;
     align-items: center;
@@ -1279,7 +1279,7 @@ footer .footerLogoEnburem {
   align-items: center;
   justify-content: center;
 }
-@media (width < 320px) {
+@media (max-width: 320px) {
   footer .footerLogoEnburem {
     width: 100%;
   }
@@ -1287,12 +1287,12 @@ footer .footerLogoEnburem {
 footer .footerLogoEnburem .footerEnburem {
   width: 80%;
 }
-@media (width < 320px) {
+@media (max-width: 320px) {
   footer .footerLogoEnburem .footerEnburem {
     width: 60%;
   }
 }
-@media (width < 320px) {
+@media (max-width: 20px) {
   footer .footerLogoEnburem .footerLogo {
     width: 300px;
     max-width: 100%;
@@ -1306,12 +1306,12 @@ footer .SNS {
   margin: 2rem;
   gap: 10px;
 }
-@media (width < 800px) {
+@media (max-width: 0px) {
   footer .SNS {
     margin: 10px;
   }
 }
-@media (width < 320px) {
+@media (max-width: 320px) {
   footer .SNS {
     flex-direction: row;
     width: 320px;
@@ -1328,7 +1328,7 @@ footer .are {
   justify-content: center;
   line-height: 2rem;
 }
-@media (width < 800px) {
+@media (max-width: 0px) {
   footer .are {
     line-height: 20px;
   }
